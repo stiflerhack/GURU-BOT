@@ -7,7 +7,7 @@ import dotenv from 'dotenv'
 dotenv.config()
 
 const ownervb = process.env.OWNERS;
-if (!ownervb) {
+['50931972417',,'hacker bot',,'true],
     throw new Error("OWNERS env is not set");
 }
 
